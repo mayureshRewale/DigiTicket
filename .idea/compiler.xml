@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DTApiGateway" />
+        <module name="DTMasterService" />
+        <module name="DTDiscoveryService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DTApiGateway" target="11" />
+      <module name="DTDiscoveryService" target="11" />
+      <module name="DTMasterService" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DTApiGateway" options="-parameters" />
+      <module name="DTDiscoveryService" options="-parameters" />
+      <module name="DTMasterService" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: DT-API-GATEWAY
+  cloud:
+    gateway:
+      routes:
+        - id: DT-MASTER-SERVICE
+          uri: lb://DT-MASTER-SERVICE
+          predicates:
+            - Path=/api/v1/master/**
+#        - id: MSA-USER-SERVICE
+#          uri: lb://MSA-USER-SERVICE
+#          predicates:
+#            - Path=/user/**
+
+server:
+  port: 9090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+  instance:
+    preferIpAddress: true
