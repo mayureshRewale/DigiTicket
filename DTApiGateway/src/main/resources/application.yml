@@ -8,10 +8,10 @@ spring:
           uri: lb://DT-MASTER-SERVICE
           predicates:
             - Path=/api/v1/master/**
-#        - id: MSA-USER-SERVICE
-#          uri: lb://MSA-USER-SERVICE
-#          predicates:
-#            - Path=/user/**
+        - id: DT-SECURITY-SERVICE
+          uri: lb://DT-SECURITY-SERVICE
+          predicates:
+            - Path=/security/**
 
 server:
   port: 9090
