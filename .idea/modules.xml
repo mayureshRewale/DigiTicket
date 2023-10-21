@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/DTApiGateway/DTApiGateway.iml" filepath="$PROJECT_DIR$/DTApiGateway/DTApiGateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/DTDiscoveryService/DTDiscoveryService.iml" filepath="$PROJECT_DIR$/DTDiscoveryService/DTDiscoveryService.iml" />
       <module fileurl="file://$PROJECT_DIR$/DTMasterService/DTMasterService.iml" filepath="$PROJECT_DIR$/DTMasterService/DTMasterService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DTSecurityService/DTSecurityService.iml" filepath="$PROJECT_DIR$/DTSecurityService/DTSecurityService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dt-backend.iml" filepath="$PROJECT_DIR$/.idea/dt-backend.iml" />
     </modules>
   </component>

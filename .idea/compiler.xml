@@ -7,15 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DTSecurityService" />
+        <module name="DTDiscoveryService" />
         <module name="DTApiGateway" />
         <module name="DTMasterService" />
-        <module name="DTDiscoveryService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DTApiGateway" target="11" />
       <module name="DTDiscoveryService" target="11" />
       <module name="DTMasterService" target="11" />
+      <module name="DTSecurityService" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,7 @@
       <module name="DTApiGateway" options="-parameters" />
       <module name="DTDiscoveryService" options="-parameters" />
       <module name="DTMasterService" options="-parameters" />
+      <module name="DTSecurityService" options="-parameters" />
     </option>
   </component>
 </project>

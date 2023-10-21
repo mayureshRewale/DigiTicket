@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/DTApiGateway/pom.xml" />
         <option value="$PROJECT_DIR$/DTMasterService/pom.xml" />
         <option value="$PROJECT_DIR$/DTDiscoveryService/pom.xml" />
+        <option value="$PROJECT_DIR$/DTSecurityService/pom.xml" />
       </list>
     </option>
   </component>
