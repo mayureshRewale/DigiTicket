@@ -28,7 +28,7 @@ public class DTSecurityConfig {
                 .csrf()
                 .disable()
                 .authorizeHttpRequests()
-                .antMatchers("/security/auth/**")
+                .antMatchers("/**")
                 .permitAll()
                 .anyRequest().authenticated()
                 .and()
